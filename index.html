@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LifeBase — Life Admin Tracker Spreadsheet</title>
+<meta name="description" content="LifeBase is one spreadsheet that tracks every bill, subscription, renewal, and task — and tells you exactly what needs your attention today. Works in Excel and Google Sheets.">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Helvetica Neue', Arial, sans-serif; background: #F5F6F8; color: #1A1F29; }
+  h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; margin: 0; }
+  a { color: #2C6E9E; text-decoration: none; }
+  a:hover { color: #1F4E70; }
+  img { max-width: 100%; }
+  .btn { display: inline-block; padding: 16px 32px; border-radius: 8px; font-weight: 700; font-size: 17px; font-family: 'Helvetica Neue', Arial, sans-serif; }
+</style>
+</head>
+<body>
+
+<div style="width: 100%; display: flex; flex-direction: column; align-items: stretch;">
+
+  <!-- NAV -->
+  <div style="width: 100%; background: #141B2E; padding: 20px 0;">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 0 40px; display: flex; align-items: center; justify-content: space-between;">
+      <div style="font-family: Georgia, serif; font-size: 24px; font-weight: 700; color: #FFFFFF; letter-spacing: 0.5px;">LIFEBASE</div>
+      <a href="https://barechenadir.gumroad.com/l/lifebase" style="background: #2C6E9E; color: #FFFFFF; padding: 11px 24px; border-radius: 7px; font-weight: 700; font-size: 15px;">Get LifeBase</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div style="width: 100%; background: linear-gradient(180deg, #141B2E 0%, #1B2740 100%); padding: 90px 40px 100px 40px;">
+    <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+      <div style="display: inline-block; background: rgba(255,255,255,0.08); color: #B9C4DA; font-size: 14px; font-weight: 700; letter-spacing: 1px; padding: 8px 18px; border-radius: 20px; margin-bottom: 28px;">FOR EXCEL &amp; GOOGLE SHEETS</div>
+      <h1 style="font-size: 54px; line-height: 1.15; color: #FFFFFF; margin-bottom: 24px;">Never forget a bill, renewal, or deadline again</h1>
+      <p style="font-size: 20px; line-height: 1.6; color: #B9C4DA; max-width: 640px; margin: 0 auto 40px auto;">LifeBase is the one spreadsheet that replaces the sticky notes and scattered apps you use to track bills, subscriptions, renewals, and everyday tasks — and tells you exactly what needs you, the moment you open it.</p>
+      <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+        <a href="https://barechenadir.gumroad.com/l/lifebase" class="btn" style="background: #2C6E9E; color: #FFFFFF;">Get LifeBase — instant download</a>
+        <a href="#included" class="btn" style="background: transparent; color: #FFFFFF; border: 1.5px solid rgba(255,255,255,0.35);">See what's inside</a>
+      </div>
+    </div>
+    <div style="max-width: 980px; margin: 64px auto 0 auto;">
+      <img src="images/mockup1_dashboard_hero.png" style="width: 100%; display: block; border-radius: 10px;">
+    </div>
+  </div>
+
+  <!-- TRUST BAR -->
+  <div style="width: 100%; background: #FFFFFF; border-bottom: 1px solid #E4E7ED;">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 22px 40px; display: flex; gap: 40px; justify-content: center; flex-wrap: wrap;">
+      <div style="font-size: 14px; color: #5B6472; font-weight: 600;">✓ Works in Excel &amp; Google Sheets</div>
+      <div style="font-size: 14px; color: #5B6472; font-weight: 600;">✓ Instant digital download</div>
+      <div style="font-size: 14px; color: #5B6472; font-weight: 600;">✓ No subscription — pay once</div>
+      <div style="font-size: 14px; color: #5B6472; font-weight: 600;">✓ Single-user license</div>
+    </div>
+  </div>
+
+  <!-- PROBLEM -->
+  <div style="width: 100%; background: #F5F6F8; padding: 90px 40px;">
+    <div style="max-width: 740px; margin: 0 auto; text-align: center;">
+      <h2 style="font-size: 34px; color: #141B2E; margin-bottom: 20px;">Your life admin lives in five different places. LifeBase gives it one.</h2>
+      <p style="font-size: 18px; line-height: 1.7; color: #5B6472;">Rent, insurance, Netflix, oil changes, passport renewals, that one task you keep meaning to do — it's scattered across your inbox, your notes app, and your memory. LifeBase pulls it all into a single spreadsheet with one job: tell you what needs your attention today.</p>
+    </div>
+  </div>
+
+  <!-- FEATURE 1 -->
+  <div style="width: 100%; background: #FFFFFF; padding: 100px 40px;">
+    <div style="max-width: 1160px; margin: 0 auto;">
+      <img src="images/mockup2_dashboard_annotated.png" style="width: 100%; display: block; border-radius: 10px; margin-bottom: 56px;">
+      <div style="max-width: 640px; margin: 0 auto; text-align: center;">
+        <h2 style="font-size: 30px; color: #141B2E; margin-bottom: 16px;">One Dashboard. Zero guessing.</h2>
+        <p style="font-size: 17px; line-height: 1.7; color: #5B6472;">Every bill, subscription, car and home task, and important date rolls up into one screen — what's overdue, what's due this week, what you're spending every month, and your next ten things to handle, sorted automatically.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURE 2 -->
+  <div style="width: 100%; background: #F5F6F8; padding: 100px 40px;">
+    <div style="max-width: 1160px; margin: 0 auto; display: flex; gap: 64px; align-items: center; flex-wrap: wrap;">
+      <div style="flex: 1 1 380px; min-width: 320px;">
+        <h2 style="font-size: 30px; color: #141B2E; margin-bottom: 16px;">Status you can see at a glance — and read in words</h2>
+        <p style="font-size: 17px; line-height: 1.7; color: #5B6472; margin-bottom: 24px;">Every tracker uses color and text together: red for overdue, orange for due soon, yellow for upcoming, green for done. Nothing hides behind color alone, so it stays clear whether you're scanning fast or printing in black and white.</p>
+        <ul style="padding-left: 20px; color: #5B6472; font-size: 16px; line-height: 2;">
+          <li>Bills, Subscriptions, Important Dates</li>
+          <li>Car &amp; Home maintenance</li>
+          <li>Tasks and a 5-minute Weekly Reset</li>
+        </ul>
+      </div>
+      <div style="flex: 1 1 480px; min-width: 320px;">
+        <img src="images/mockup3_bills_detail.png" style="width: 100%; display: block; border-radius: 10px;">
+      </div>
+    </div>
+  </div>
+
+  <!-- WHAT'S INCLUDED -->
+  <div id="included" style="width: 100%; background: #141B2E; padding: 100px 40px;">
+    <div style="max-width: 1160px; margin: 0 auto; text-align: center;">
+      <h2 style="font-size: 34px; color: #FFFFFF; margin-bottom: 56px;">Everything you get, in one download</h2>
+      <img src="images/mockup4_whats_included.png" style="width: 100%; display: block; border-radius: 10px;">
+    </div>
+  </div>
+
+  <!-- PRICING -->
+  <div id="pricing" style="width: 100%; background: #F5F6F8; padding: 100px 40px;">
+    <div style="max-width: 480px; margin: 0 auto; background: #FFFFFF; border: 1px solid #E4E7ED; border-radius: 14px; padding: 48px 40px; text-align: center; box-shadow: 0 20px 50px rgba(20,27,46,0.08);">
+      <div style="font-size: 15px; font-weight: 700; letter-spacing: 1px; color: #2C6E9E; margin-bottom: 12px;">LIFEBASE — FULL SYSTEM</div>
+      <div style="display: flex; align-items: baseline; justify-content: center; gap: 12px; margin-bottom: 8px;">
+        <span style="font-size: 52px; font-weight: 700; font-family: Georgia, serif; color: #141B2E;">$17</span>
+      </div>
+      <div style="font-size: 14px; color: #5B6472; margin-bottom: 32px;">One-time payment. No subscription.</div>
+      <a href="https://barechenadir.gumroad.com/l/lifebase" class="btn" style="background: #2C6E9E; color: #FFFFFF; width: 100%; box-sizing: border-box; margin-bottom: 24px;">Get instant access</a>
+      <div style="text-align: left; font-size: 15px; color: #3A4150; line-height: 2.1;">
+        <div>✓ LifeBase.xlsx — Dashboard + 9 trackers</div>
+        <div>✓ Start Here + Quick Start Guide (PDF)</div>
+        <div>✓ Weekly Reset Guide (PDF)</div>
+        <div>✓ Tips &amp; Best Practices (PDF)</div>
+        <div>✓ Single-user License (PDF)</div>
+        <div>✓ Works in Excel and Google Sheets</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div style="width: 100%; background: #FFFFFF; padding: 100px 40px;">
+    <div style="max-width: 720px; margin: 0 auto;">
+      <h2 style="font-size: 30px; color: #141B2E; margin-bottom: 44px; text-align: center;">Questions</h2>
+
+      <div style="border-top: 1px solid #E4E7ED; padding: 24px 0;">
+        <div style="font-size: 17px; font-weight: 700; color: #141B2E; margin-bottom: 8px;">Do I need Excel, or does Google Sheets work?</div>
+        <div style="font-size: 16px; color: #5B6472; line-height: 1.7;">Both. LifeBase is a single .xlsx file — open it in Excel 2016 or newer, or upload it straight into Google Sheets.</div>
+      </div>
+      <div style="border-top: 1px solid #E4E7ED; padding: 24px 0;">
+        <div style="font-size: 17px; font-weight: 700; color: #141B2E; margin-bottom: 8px;">Is this a subscription?</div>
+        <div style="font-size: 16px; color: #5B6472; line-height: 1.7;">No. It's a single one-time purchase. The file is yours to keep and use for as long as you want.</div>
+      </div>
+      <div style="border-top: 1px solid #E4E7ED; padding: 24px 0;">
+        <div style="font-size: 17px; font-weight: 700; color: #141B2E; margin-bottom: 8px;">What does "single-user license" mean?</div>
+        <div style="font-size: 16px; color: #5B6472; line-height: 1.7;">Your purchase is for your own personal use on your own devices. If someone else on your team or in your family wants to use LifeBase, they're welcome to grab their own copy.</div>
+      </div>
+      <div style="border-top: 1px solid #E4E7ED; padding: 24px 0;">
+        <div style="font-size: 17px; font-weight: 700; color: #141B2E; margin-bottom: 8px;">I'm not a spreadsheet person — is this hard to use?</div>
+        <div style="font-size: 16px; color: #5B6472; line-height: 1.7;">No formulas to write, ever. You only type into the white cells; everything grey calculates itself. The built-in "Start Here" guide walks you through your first five minutes.</div>
+      </div>
+      <div style="border-top: 1px solid #E4E7ED; border-bottom: 1px solid #E4E7ED; padding: 24px 0;">
+        <div style="font-size: 17px; font-weight: 700; color: #141B2E; margin-bottom: 8px;">What if I need help after buying?</div>
+        <div style="font-size: 16px; color: #5B6472; line-height: 1.7;">Every download includes step-by-step PDF guides covering setup, your weekly routine, and troubleshooting tips.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="width: 100%; background: #141B2E; padding: 44px 40px;">
+    <div style="max-width: 1160px; margin: 0 auto; text-align: center;">
+      <div style="font-family: Georgia, serif; font-size: 18px; color: #FFFFFF; margin-bottom: 8px;">LIFEBASE</div>
+      <div style="font-size: 14px; color: #7C87A0;">LifeBase © 2026 Nadir Bareche — All rights reserved. Single-user license.</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
